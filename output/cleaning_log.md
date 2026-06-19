@@ -7,7 +7,6 @@ Business Data Cleaning, Validation and Excel Reporting
 Repository:
 rohinipatil_2511898_part1_data_cleaning
 
----
 
 ## Issues Found
 
@@ -34,7 +33,6 @@ Issues identified:
 * Inconsistent capitalization
 * Inconsistent category naming
 
----
 
 ## Text Cleaning Actions
 
@@ -53,7 +51,7 @@ Actions performed:
 * Filled missing Region values with "Unknown"
 * Filled missing Ship Mode values with "Unknown"
 
----
+
 
 ## Date Cleaning and Validation
 
@@ -83,7 +81,7 @@ Validation Rules:
 * Invalid dates flagged
 * Ship date before order date flagged as Invalid
 
----
+
 
 ## Duplicate Handling
 
@@ -98,7 +96,6 @@ Actions Performed:
 * Duplicate Order IDs flagged for review
 * Conflicting records not deleted
 
----
 
 ## Missing Values
 
@@ -108,7 +105,6 @@ Actions Performed:
 | Ship Mode | Filled with Unknown      |
 | Discount  | Filled with 0 when valid |
 
----
 
 ## Discount Validation
 
@@ -122,7 +118,6 @@ Actions Performed:
 * Negative discounts flagged as Invalid
 * Discounts above threshold flagged as Invalid
 
----
 
 ## Business Rules Applied
 
@@ -136,7 +131,6 @@ Actions Performed:
 8. Refunded Orders Summarized Separately
 9. Ship Date Earlier Than Order Date → Invalid
 
----
 
 ## Calculated Columns Created
 
@@ -146,13 +140,10 @@ Actions Performed:
 * order_year
 * data_quality_flag
 
----
 
 ## Records Removed
 
 20 exact duplicate records removed.
-
----
 
 ## Records Flagged
 
@@ -161,7 +152,6 @@ Actions Performed:
 * 7 excessive discount records
 * 2 invalid shipping records
 
----
 
 ## Assumptions
 
@@ -169,7 +159,6 @@ Actions Performed:
 * Unknown values retained for reporting transparency
 * Duplicate Order IDs require manual review
 
----
 
 ## Limitations
 
@@ -177,7 +166,6 @@ Actions Performed:
 * Source-system errors cannot be fully verified.
 * Some business rules depend on external validation.
 
----
 
 ## Final Status
 
